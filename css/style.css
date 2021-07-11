@@ -55,7 +55,7 @@ table {
 
 /*Alert*/
 #customAlert{
-	background: blue;
+	background: #48cae4;
 	color: #000;
 }
 
@@ -63,17 +63,94 @@ table {
 
 nav{
 	font-size: .8rem;
+	height: 3rem;
 }
 
 
 nav ul{
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	
 }
+
+nav a{
+	text-decoration: none;
+	color: #a4a4a4;
+}
+
+nav ul li {
+	margin-left: 1.5rem;
+}
+
+nav ul li a: hover{
+	text-decoration: none;
+	color: #2a9d8f;
+}
+/*Navbar Components*/
+.logIn{
+
+	border: 1px solid #2a9d8f;
+	width: 6rem;
+	text-align: center;
+	padding: .6rem;
+	border-radius: .3rem;
+	color: #2a9d8f;
+}
+.logIn: hover{
+	border-color: #005f73;
+	color: #005f73;
+}
+
+.signUp{
+
+	border: 1px solid #005f73;
+	width: 6rem;
+	text-align: center;
+	padding: .6rem;
+	color: #fff;
+	background: #065a60;
+	border-radius: .3rem;
+
+}
+
+.signUp:hover{
+	background: #001d3d;
+	color: #fff;
+}
+
+.globe{
+
+	border: 1px solid #a4a4a4;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: .5rem;
+	border-radius: .3rem;
+}
+
+.header-input{
+	flex-basis: 10rem;
+}
+
+/*Finished Navbar Components*/
+
 
 .header-logo svg{
 	width: 7rem;
+	height: auto;
+}
+
+.footer-logo svg{
+	width: 7rem;
+	height: auto;
+}
+
+.mercedes svg{
+	width: 12rem;
+	height: auto;
+
 }
 
 
@@ -89,18 +166,15 @@ nav ul{
 .header-img{
 	height: 50vh;
 	background: no-repeat center/100% url('../img/udemy-landing-page.jpg');
+	display: flex;
 }
 
 .header-box{
 	background: #fff;
 	width: 32%;
 	height: 12.5rem;
-	position: relative;
-	top: 5rem;
-	left: 3rem;
 	text-align: left;
 	padding: 1.7rem;
-
 }
 
 .header-box h2{
@@ -119,4 +193,146 @@ nav ul{
 .header-box input:active{
 	border-right: none;
 	border-right-color: white;
+}
+
+.featured .features h5{
+	color: #0f7c90;
+	font-size: .9rem;
+	font-weight: 700;
+}
+
+.featured .features h6{
+	font-size: .89rem;
+	margin-bottom: 2rem;
+	font-weight: 800;
+}
+
+.featured .features p{
+	margin-bottom: 2rem;
+}
+
+.png{
+	transform: scale(0.5);
+}
+
+.png-box{
+	width: 3rem;
+	height: 3rem;
+	background: #0077b6;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+
+.fa-star, .fa-infinity{
+	color: #fff;
+}
+
+.featured h4{
+	margin-bottom: 2rem;
+}
+
+.btn-explore a{
+	font-size: .99rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+	color: #fff;
+	background: #0f7c90;
+	border-radius: .3rem;
+}
+
+.btn-explore a:hover{
+	color: #fff;
+}
+
+#featured-container{
+
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+}
+.startTeaching a{
+
+	font-size: .99rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+	color: #fff;
+	background: #0f7c90;
+	border-radius: .3rem;
+
+}
+
+.startTeaching a:hover{
+	color: #fff;
+}
+
+.udemyBusiness a{
+
+	font-size: .99rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+	color: #fff;
+	background: #0f7c90;
+	border-radius: .3rem;
+
+}
+
+.udemyBusiness a:hover{
+	color: #fff;
+}
+
+.sponsors{
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	border-top: 1px solid #a4a4a4;
+	border-bottom: 1px solid #a4a4a4;
+	padding: 2rem;
+}
+
+.sponsors ul{
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sponsors ul li svg{
+	margin-left: 2rem;
+}
+
+.sponsors h4{
+	margin: 1rem;
+	font-weight: 900;
+	font-size: 1.33rem;
+
+}
+
+.udemy-Business{
+	background: #15616d;
+	width: 100%;
+
+
+}
+
+.businessMan{
+	display: relative;
+}
+
+.businessText{
+	color: #fff;
 }
