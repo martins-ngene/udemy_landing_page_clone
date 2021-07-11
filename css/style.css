@@ -142,11 +142,6 @@ nav ul li a: hover{
 	height: auto;
 }
 
-.footer-logo svg{
-	width: 7rem;
-	height: auto;
-}
-
 .mercedes svg{
 	width: 12rem;
 	height: auto;
@@ -336,3 +331,46 @@ nav ul li a: hover{
 .businessText{
 	color: #fff;
 }
+
+/*Start Footer*/
+
+footer{
+	border-top: 1px solid #e4e4e4;
+	padding-top: 1rem;
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: .8rem;
+	line-height: 2;
+}
+
+#footer-container-1{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#footer-container-2{
+	display: flex;
+	align-content: flex-end;
+}
+
+footer ul{
+	margin-left: 7rem;
+	color: #0f7c90;
+}
+
+.ul-1{
+	margin-left: 0;
+}
+
+.footer-logo svg{
+	width: 7rem;
+	height: auto;
+	margin-left: 0;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+
+/*End Footer*/
