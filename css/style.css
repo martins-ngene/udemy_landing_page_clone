@@ -269,10 +269,37 @@ nav ul li a: hover{
 /*End Top Categories*/
 
 /*Tabs Container*/
-
+/*
 #tab-container{
 	width: 100%;
-	height: 80vh;
+	height: 60vh;
+}
+*/
+.txt{
+  float: left;
+  
+}
+
+.img-sec{
+  float: right;
+}
+.img-sec img{
+  transform: scale(0.6);
+
+}
+
+.major-container{
+  display: flex;
+  align-items: center;
+}
+
+.checked {
+    color: orange;
+  }
+
+.carousel-img-case{
+	width: 100%;
+	height: 50px;
 }
 
 /*End Tabs Container*/
