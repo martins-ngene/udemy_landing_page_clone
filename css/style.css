@@ -203,13 +203,13 @@ nav ul li a: hover{
 .header-box{
 	background: #fff;
 	width: 37%;
-	height: 12.5rem;
+	height: 17rem;
 	text-align: left;
 	padding: 1.7rem;
 	z-index: 1000;
 	position: relative;
-	top: -25px;
-	left: 40px;
+	top: 5rem;
+	left: 3rem;
 	
 }
 
@@ -252,8 +252,8 @@ nav ul li a: hover{
   text-decoration: none;
   color: #a4a4a4;
   float: right;
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 2rem;
   padding-top: 5px;
   border-radius: 50%;
   background: #fafafa;
@@ -270,7 +270,7 @@ nav ul li a: hover{
   background: #fafafa;
   outline: none;
   float: left;
-  width: 80%;
+  width: 75%;
   padding: 0px;
   color: #000;
   font-size: .97rem;
@@ -302,7 +302,6 @@ nav ul li a: hover{
 .major-container{
   display: flex;
   align-items: center;
-  display: none;
 }
 
 .checked {
@@ -519,6 +518,7 @@ nav ul li a: hover{
 .sponsors ul{
 	margin: 1rem;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 }
