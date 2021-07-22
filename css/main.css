@@ -121,9 +121,10 @@ table {
   color: #fff;
 }
 
-#alert .btn-close{
-  color: #fff;
+.header-img-box-2{
+  overflow-x: hidden;
 }
+
 
 /*Header components End************************************/
 
@@ -133,8 +134,20 @@ nav{
 	height: 4rem;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
+  font-size: .8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
+nav a{
+  text-decoration: none;
+   color: #000;
+   font-weight: lighter;
+}
+
+.fa-search{
+  font-size: 2rem;
 }
 
 #nav{
@@ -153,10 +166,11 @@ nav{
   .search-btn-2 {
   text-decoration: none;
   color: #a4a4a4;
-  float: right;
+  float: left;
   width: 2rem;
   height: 1.5rem;
   padding-top: 5px;
+  margin-right: 1rem;
   border-radius: 50%;
   background: #fff;
   display: flex;
@@ -186,22 +200,151 @@ nav{
  	width: 50rem;
  	height: 3rem;
  	background: #fff;
- 	padding: 1rem;
+ 	padding: .8rem;
  }
 
  .search-btn-2 i{
- 	font-size: .8rem;
+ 	font-size: 1rem;
  	color: #000;
  }
 
  .header-btn{
- 	width: 10rem;
+ 	width: 15rem;
  	display: flex;
  	align-items: center;
  	justify-content: space-evenly;
  }
+
+ .logIn, .signUp{
+  border: 1px solid #000;
+  padding: .5rem;
+  width: 65px;
+  text-align: center;
+ }
+
+ .signUp{
+   color: #fff;
+  font-weight: 500;
+  margin-left: 5px;
+ }
+
+.logIn{
+  color: #000;
+  font-weight: 500;
+}
+ .logIn:hover{
+  background: #e4e4e4;
+  color: #000;
+  font-weight: 500;
+ }
+
+.signUp:hover{
+  background: #000;
+  color: #fff;
+  font-weight: 500;
+ }
+
+ .globe{
+  width: 35px;
+  border: 1px solid #000;
+  padding: .5rem;
+  text-align: center;
+  margin-left: 5px;
+
+ }
+
+ .globe:hover{
+  background: #e4e4e4;
+  color: #000;
+  font-weight: 500;
+ }
+
+ .signUp{
+  background: #212529;
+  color: #fff;
+ }
+
+ .fa-globe, .fa-shopping-cart{
+  font-size: 1.1rem;
+ }
+
+ .header-sm-links{
+  width: 3.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1rem;
+ }
+
+ .header-sm-links i{
+  font-size: 1.1rem;
+ }
+ .header-menu{
+  margin-left: 1rem;
+ }
+ .header-menu img{
+  width: 1.8rem;
+ }
+
 /*Navbar components End************************************/
+
+/*Media Queries********************************************/
+@media(min-width: 768px){
+
+  .header-img-box-2{
+    display: none;
+  }
+
+
+}
+
+@media(max-width: 767px){
+
+  .header-img-box{
+    display: none;
+  }
+}
+
+@media(min-width: 1317px){
+
+   .header-sm-links{
+    display: none;
+  }
+
+
+}
+
+
+
+@media(max-width: 1316px){
+
+  .header-btn{
+    display: none;
+  }
+
+  .header-link{
+    display: none;
+  }
+
+  .header-box-sm{
+    width: 21.5rem;
+    height: 13.5rem;
+    padding: .2rem;
+  }
+
+  .header-box-sm h1{
+    transform: scale(0.8);
+  }
+
+  .header-box-sm p{
+    transform: scale(0.9);
+  }
+  .header-box-sm .header-input-box{
+    transform: scale(0.8);
+  }
+}
+/*Media Queries End***************************************/
 
 /*Footer***************************************************/
 
-/*Footer End**********************************************
+/*Footer End**********************************************/
