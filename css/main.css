@@ -429,13 +429,13 @@ nav a{
 .features h6 a{
   color: #7b2cbf;
   font-weight: bold;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .features p{
   color: #6a6f73;
   font-size: .7rem;
-   margin-bottom: 2rem;
+   margin-bottom: 1.6rem;
 }
 
 .features a:hover{
