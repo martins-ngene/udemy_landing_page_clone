@@ -423,12 +423,13 @@ nav a{
 .features h5{
   font-weight: 700;
   margin-bottom: 2rem;
+  font-size: 1rem;
 }
 
 .features h6 a{
   color: #7b2cbf;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .features p{
