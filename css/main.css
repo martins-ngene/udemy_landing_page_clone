@@ -223,7 +223,8 @@ nav a{
  }
 
  .signUp{
-   color: #fff;
+  background: #212529;
+  color: #fff;
   font-weight: 500;
   margin-left: 5px;
  }
@@ -257,11 +258,6 @@ nav a{
   background: #e4e4e4;
   color: #000;
   font-weight: 500;
- }
-
- .signUp{
-  background: #212529;
-  color: #fff;
  }
 
  .fa-globe, .fa-shopping-cart{
@@ -311,6 +307,21 @@ nav a{
   .header-img-box{
     display: none;
   }
+
+  .item-2{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .order-num-1{
+    order: 1;
+  }
+
+  .order-num-2{
+    order: 2;
+  }
+
+
 }
 
 @media(min-width: 1317px){
@@ -358,6 +369,21 @@ nav a{
   }
 
   #btn-explore a{
+    width: 130px;
+
+  }
+
+  #instructor-btn a{
+    width: 130px;
+
+  }
+
+  #udemyBusiness-btn a{
+    width: 130px;
+
+  }
+
+  #findOut-btn a{
     width: 130px;
 
   }
@@ -472,6 +498,80 @@ nav a{
 }
 
 /*Features End**********************************************/
+
+/*Instructors **********************************************/
+
+#instructor-container{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+#udemyBusiness-container{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+#findOut-container{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+.row-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-box{
+  width: 55rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item-1{
+  width: 25rem;
+}
+
+.item-2{
+  width: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  align-items: center;
+}
+
+.item-2 h3{
+  font-weight: 700;
+}
+
+.instructor-btn a{
+  border: 1px solid #000;
+  color: #fff;
+  background: #212529;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+
+}
+
+.instructor-btn a:hover{
+  background: #000;
+  color: #fff;
+}
+/*Instructors End**********************************************/
 
 /*Footer***************************************************/
 
