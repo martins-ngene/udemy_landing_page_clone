@@ -292,111 +292,6 @@ nav a{
 
 /*Navbar components End************************************/
 
-/*Media Queries********************************************/
-@media(min-width: 768px){
-
-  .header-img-box-2{
-    display: none;
-  }
-
-
-}
-
-@media(max-width: 767px){
-
-  .header-img-box{
-    display: none;
-  }
-
-  .item-2{
-    justify-content: center;
-    text-align: center;
-  }
-
-  .order-num-1{
-    order: 1;
-  }
-
-  .order-num-2{
-    order: 2;
-  }
-
-
-}
-
-@media(min-width: 1317px){
-
-   .header-sm-links{
-    display: none;
-  }
-
-
-}
-
-
-
-@media(max-width: 1316px){
-
-  .header-btn{
-    display: none;
-  }
-
-  .header-link{
-    display: none;
-  }
-
-  .header-box-sm{
-    width: 21.5rem;
-    height: 13.5rem;
-    padding: .2rem;
-  }
-
-  .header-box-sm h1{
-    transform: scale(0.8);
-  }
-
-  .header-box-sm p{
-    transform: scale(0.9);
-  }
-  .header-box-sm .header-input-box{
-    transform: scale(0.8);
-  }
-}
-
-@media(min-width: 528px){
-  #top-container-1{
-    display: none;
-  }
-
-  #btn-explore a{
-    width: 130px;
-
-  }
-
-  #instructor-btn a{
-    width: 130px;
-
-  }
-
-  #udemyBusiness-btn a{
-    width: 130px;
-
-  }
-
-  #findOut-btn a{
-    width: 130px;
-
-  }
-
-}
-
-@media(max-width: 527px){
-  #top-container-2{
-    display: none;
-  }
-
-}
-/*Media Queries End***************************************/
 /*Top Categories******************************************/
 .top-container{
   width: 100%;
@@ -499,7 +394,7 @@ nav a{
 
 /*Features End**********************************************/
 
-/*Instructors **********************************************/
+/*Instructors, udemyBusiness and findOut **********************************************/
 
 #instructor-container{
   margin-top: 50px;
@@ -521,57 +416,160 @@ nav a{
   margin-bottom: auto;
   margin-right: auto;
 }
-.row-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.item-box{
-  width: 55rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.item-1{
-  width: 25rem;
-}
-
-.item-2{
-  width: 25rem;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem;
-  align-items: center;
-}
-
-.item-2 h3{
-  font-weight: 700;
-}
-
-.instructor-btn a{
-  border: 1px solid #000;
+.btn-custom a{
   color: #fff;
   background: #212529;
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 800;
-  width: 100%;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0px;
-
 }
 
-.instructor-btn a:hover{
+.btn-custom a:hover{
   background: #000;
   color: #fff;
 }
-/*Instructors End**********************************************/
+
+.custom-textbox{
+  
+}
+
+
+/*Instructors, udemyBusiness and findOut End**********************************************/
+
+/*trusted companies*******************************************/
+
+
+.trust-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.trust-container li a{
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+
+.trust h3{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.align h3{
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+#trust{
+  height: 11rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.align{
+  text-align: center;
+}
+/*trusted companies End***************************************/
+
+/*Media Queries********************************************/
+
+@media(min-width: 528px){
+
+  #top-container-1{
+    display: none;
+  }
+
+  #btn-explore a{
+    width: 130px;
+
+  }
+
+}
+
+@media(max-width: 527px){
+
+  #top-container-2{
+    display: none;
+  }
+
+}
+
+
+@media(min-width: 528px){
+
+ .align{
+  text-align: left;
+ }
+
+ .trust h3{
+  font-size: 1.8rem;
+ }
+}
+
+@media(min-width: 768px){
+
+  .header-img-box-2{
+    display: none;
+  }
+
+
+}
+
+@media(max-width: 767px){
+
+  .header-img-box{
+    display: none;
+  }
+
+}
+
+@media(min-width: 1317px){
+
+   .header-sm-links{
+    display: none;
+  }
+
+
+}
+
+
+
+@media(max-width: 1316px){
+
+  .header-btn{
+    display: none;
+  }
+
+  .header-link{
+    display: none;
+  }
+
+  .header-box-sm{
+    width: 21.5rem;
+    height: 13.5rem;
+    padding: .2rem;
+  }
+
+  .header-box-sm h1{
+    transform: scale(0.8);
+  }
+
+  .header-box-sm p{
+    transform: scale(0.9);
+  }
+  .header-box-sm .header-input-box{
+    transform: scale(0.8);
+  }
+}
+
+
+
+/*Media Queries End***************************************/
 
 /*Footer***************************************************/
 
