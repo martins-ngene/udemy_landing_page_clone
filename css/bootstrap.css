@@ -6003,6 +6003,7 @@ textarea.form-control-lg {
   background-clip: padding-box;
   outline: 0;
   transition: transform 0.3s ease-in-out;
+
 }
 @media (prefers-reduced-motion: reduce) {
   .offcanvas {
@@ -6037,6 +6038,7 @@ textarea.form-control-lg {
   width: 190px;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   transform: translateX(-100%);
+  z-index: 1000000000000000000;
 }
 
 .offcanvas-end {
